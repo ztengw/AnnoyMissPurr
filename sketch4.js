@@ -25,11 +25,11 @@ let showC = false;
 function preload(){
   soundFormats('mp3', 'wav');
  //sound
-  p1 = loadSound("sounds/pouty1.mp3");
-  p2 = loadSound("sounds/pouty3.mp3");
-  s1 = loadSound("sounds/unhappy1.mp3");
-  s2 = loadSound("sounds/unhappy2.mp3");
-  s3 = loadSound("sounds/unhappy3.mp3");
+  p1 = loadSound("pouty1.mp3");
+  p2 = loadSound("pouty3.mp3");
+  s1 = loadSound("unhappy1.mp3");
+  s2 = loadSound("unhappy2.mp3");
+  s3 = loadSound("unhappy3.mp3");
 
   front = loadImage("images/start.jpg");
   car1 = loadImage("images/Annoyed.gif");
