@@ -8,3 +8,14 @@ canvas {
    margin:auto;
   display: block;
 }
+
+h1{
+  text-align: center;
+  font-size: 2.5em;
+}
+
+p{
+  text-align: center;
+
+  /* font: Caveat-Bold.ttf; */
+}
