@@ -121,7 +121,7 @@ function draw() {
       //   startScreen();
       // }
       // noLoop();
-      // playing = true;
+      playing = true;
   }
 
 //to check the position of the mouse
@@ -197,12 +197,9 @@ function startScreen(){
    strokeJoin(ROUND);
    strokeWeight(5);
    triangle(285, 330, 285, 368, 320, 349);
-
-
-
    }
-
 }
+//////  END START SCREEN  //////
 
 function keyPressed(){
   if ((gameState == 1 || gameState == 2) && (keyCode === ' ' || keyCode === 32)){
@@ -265,7 +262,7 @@ if (gameState == 2){
 
       cPicker = int(random(1, 4)); // 1..3
       showC = true;
-      patienceLevel();
+
 
       if (hP <= 60){
       gameState = 3; 
@@ -289,7 +286,6 @@ if (gameState == 3){
 
       cPicker = int(random(1, 4)); // 1..3
       showC = true;
-      patienceLevel();
 
       if (hP <= 10){
       gameState = 4;
