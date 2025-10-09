@@ -1,4 +1,4 @@
-# AnnoysMissPurr
+# AnnoyMissPurr
 This is your cat-annoying-simulator.
 
 You will... annoy the hell out of this grumpy cat.
